@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.33%);
+    grid-gap: 10px;
+    padding: 20px;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.rectangle {
+    border: 1px solid #000000;
+}
+
+.rectangle1 {
+    background-color: #9bc1bc;
+}
+
+.rectangle2 {
+    background-color: #2b9348;
+}
+
+.rectangle3 {
+    background-color: #55a630;
+}
+
+.rectangle4 {
+    background-color: #007f5f;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.rectangle5 {
+    background-color: #80b918;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.rectangle6 {
+    background-color: #aacc00;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.rectangle7 {
+    background-color: #bfd200;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.rectangle8 {
+    background-color: #d4d700;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.rectangle9 {
+    background-color: #007f5f;
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.rectangle10 {
+    background-color: #dddf00;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.rectangle11 {
+    background-color: #eeef20;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.rectangle12 {
+    background-color: #ffff3f;
+    grid-column: 4;
+    grid-row: 3;
+}
